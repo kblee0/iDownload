@@ -1,0 +1,14 @@
+{
+  "extDesc": {
+    "message": "간단한 선택으로 여러 링크를 한 번에 열거나 다운로드할 수 있습니다.."
+  },
+  "actionTitle": {
+    "message": "Start link selection"
+  },
+  "usage": {
+    "message": "사각형을 그려 링크를 선택합니다(왼쪽 클릭은 선택, 오른쪽 클릭은 선택 취소).<br/><strong>H</strong> 키를 누르고 있으면 오버레이를 일시적으로 숨기고 페이지를 스크롤할 수 있습니다.<br/><strong>Enter</strong> 키를 누르면 선택한 링크가 현재 창에서 열리고, <strong>Shift+Enter</strong> 키를 누르면 새 창에서 열리고, <strong>Alt+Enter</strong> 키를 누르면 다운로드됩니다."
+  },
+  "shortcut_empty": {
+    "message": "<설정되지 않음>"
+  }
+}
