@@ -38,5 +38,6 @@ chrome.runtime.onMessage.addListener(function (a, b, c) {
     }
 });
 chrome.action.onClicked.addListener(function (a) {
-    chrome.tabs.sendMessage(a.id, "toggle")
+    if(a.url.search(/(http:\/\/|https:\/)/) === 0)
+        chrome.tabs.sendMessage(a.id, "toggle");
 });

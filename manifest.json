@@ -33,7 +33,8 @@
   "default_locale": "en",
   "options_page": "options.html",
   "host_permissions": [
-    "*://*/"
+    "http://*/",
+    "https://*/"
   ],
   "permissions": [
     "tabs",
