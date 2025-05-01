@@ -199,10 +199,14 @@ var uSelect_iDownload;
             return "idle"
         }, v = function () {
             var b = a._startpos, c = a._curpos, d = a._selrect;
-            d.x = Math.min(b.x, c.x);
-            d.y = Math.min(b.y, c.y);
-            d.w = Math.abs(b.x - c.x);
-            d.h = Math.abs(b.y - c.y)
+            if(b !== undefined) {
+                d.x = Math.min(b.x, c.x);
+                d.y = Math.min(b.y, c.y);
+                d.w = Math.abs(b.x - c.x);
+                d.h = Math.abs(b.y - c.y)
+            } else {
+                alert(typeof(b));
+            }
         };
         k.states.selection = {
             __enter__: function () {
